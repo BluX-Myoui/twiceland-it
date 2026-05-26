@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/TwiceOpsLogo.png" alt="Logo de TwiceOps" width="180">
+<img src="assets/TwicelandSA-Logo.png" alt="Logo de TWICELAND S.A." width="260">
 
 # Proyecto Intermodular · TWICELAND S.A.
 
@@ -75,6 +75,10 @@ flowchart TB
 ---
 
 ## TwiceOps
+
+<p align="center">
+  <img src="assets/TwiceOpsLogo.png" alt="Logo de TwiceOps" width="160">
+</p>
 
 TwiceOps es la herramienta interna propuesta para que TWICELAND pueda mantener el control de su infraestructura. No sustituye al diseño de red y sistemas, sino que lo complementa permitiendo registrar activos, gestionar incidencias y conservar trazabilidad sobre los cambios.
 
