@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/TwiceOpsLogo.png" alt="Logo de TwiceOps" width="180">
+
 # Proyecto Intermodular · TWICELAND S.A.
 
 ### Diseño de Infraestructura IT con Enfoque Security by Design
@@ -42,6 +44,10 @@ Como parte diferencial se propone **TwiceOps**, una plataforma web interna para 
 ---
 
 ## Arquitectura General
+
+La arquitectura propuesta separa la red corporativa en VLAN, mantiene la red OT aislada y centraliza los servicios principales sobre un clúster de virtualización.
+
+![Diagrama de arquitectura de TWICELAND](assets/Diagrama.png)
 
 ```mermaid
 flowchart TB
@@ -91,6 +97,12 @@ Tecnologías previstas para la plataforma:
 | Base de datos | MariaDB 11 |
 | Identidad | Integración con Active Directory mediante LDAP |
 | Despliegue | Ubuntu Server, NGINX, TLS y Proxmox VE |
+
+### Modelo De Datos
+
+El modelo de datos de TwiceOps se organiza alrededor de usuarios, departamentos, ubicaciones, activos, tickets, comentarios y auditoría. De esta forma, la plataforma puede relacionar cada incidencia con los equipos afectados y conservar un histórico de cambios.
+
+![Modelo de datos de TwiceOps](assets/TwiceOps-ModeloDeDatos.png)
 
 ---
 
